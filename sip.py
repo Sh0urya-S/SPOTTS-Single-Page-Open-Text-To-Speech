@@ -44,7 +44,6 @@ for cnt in contours:
     file.write("\n")
      
 text_file = open("recognized.txt")
-
 with open('recognized.txt', 'r') as file:
     data = file.read().replace('\n', '')
     
